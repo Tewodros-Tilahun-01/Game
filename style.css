@@ -1,121 +1,121 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-  overflow: hidden;
+    overflow: hidden;
 }
 .hero {
-  overflow: hidden;
+    overflow: hidden;
 
-  height: 100%;
-  width: 100%;
-  min-height: 100vh;
-  background: radial-gradient(#fce07b, 20%, #d57e12);
-  position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#fce07b, 20%, #d57e12);
+    position: relative;
 }
 .max-width {
-  width: 1400px;
-  max-width: 80%;
-  margin: 0 auto;
+    width: 1400px;
+    max-width: 80%;
+    margin: 0 auto;
 }
 .hero header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
 }
 .hero header .logo h2 a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-size: 32px;
-  font-weight: 600;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
 }
 nav ul li {
-  display: inline-block;
-  list-style: none;
+    display: inline-block;
+    list-style: none;
 }
 nav ul li a {
-  margin-left: 5vw;
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  border-bottom: 2px solid transparent;
-  transition: 0.4s;
+    margin-left: 5vw;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
 }
 nav ul li:not(:last-child) a:hover,
 nav ul li:not(:last-child) a:focus {
-  border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 .hero header nav ul .btn a {
-  margin-left: 15vw;
-  background-color: transparent;
-  border: 1px solid #e6ddd2;
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 20px;
+    margin-left: 15vw;
+    background-color: transparent;
+    border: 1px solid #e6ddd2;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
 }
 .content {
-  padding-top: 120px;
-  width: 500px;
+    padding-top: 120px;
+    width: 500px;
 }
 .content .main-text {
-  position: relative;
+    position: relative;
 
-  margin-bottom: 40px;
-  margin-bottom: 125px;
+    margin-bottom: 40px;
+    margin-bottom: 125px;
 }
 .content .main-text h6 {
-  font-size: 15px;
-  font-weight: 500;
-  color: white;
-  margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
 }
 .content .main-text h3 {
-  color: white;
-  font-weight: 700;
-  font-size: 17px;
-  margin-bottom: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 5px;
 }
 .content .main-text h1 {
-  color: white;
-  font-weight: 900;
-  font-size: 60px;
-  margin-bottom: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 .content .main-text p {
-  color: white;
-  margin-bottom: 50px;
+    color: white;
+    margin-bottom: 50px;
 }
 .content .main-text a {
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  border: 1px solid white;
-  padding: 10px 20px;
-  border-radius: 20px;
-  text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 .content .main-text .play {
-  color: black;
-  background-color: white;
+    color: black;
+    background-color: white;
 }
 .content .main-text a:last-child {
-  margin-left: 13px;
+    margin-left: 13px;
 }
 .social a svg {
-  width: 30px;
-  height: 20px;
-  z-index: 100;
+    width: 30px;
+    height: 20px;
+    z-index: 100;
 }
 .image {
-  position: absolute;
-  width: 680px;
-  bottom: 0px;
-  right: 0px;
+    position: absolute;
+    width: 680px;
+    bottom: 0px;
+    right: 0px;
 }
